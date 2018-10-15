@@ -1,5 +1,5 @@
 {
-  "name": "testa",
+  "name": "testu",
   "description": "Spy and mock test utilities",
   "version": "0.0.0",
   "author": "Chris Andrejewski <christopher.andrejewski@gmail.com>",
@@ -10,7 +10,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/andrejewski/testa/issues"
+    "url": "https://github.com/andrejewski/testu/issues"
   },
   "devDependencies": {
     "ava": "^0.25.0",
@@ -21,7 +21,7 @@
     "fixpack": "^2.3.1",
     "standard": "^12.0.1"
   },
-  "homepage": "https://github.com/andrejewski/testa#readme",
+  "homepage": "https://github.com/andrejewski/testu#readme",
   "keywords": [
     "mock",
     "spy",
@@ -31,7 +31,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrejewski/testa.git"
+    "url": "git+https://github.com/andrejewski/testu.git"
   },
   "scripts": {
     "build": "babel src --out-dir lib",

@@ -1,22 +1,22 @@
-# Testa
+# Testu
 > Spy and mock test utilities
 
 ```sh
-npm install testa
+npm install testu
 ```
 
-[![npm](https://img.shields.io/npm/v/testa.svg)](https://www.npmjs.com/package/testa)
-[![Build Status](https://travis-ci.org/andrejewski/testa.svg?branch=master)](https://travis-ci.org/andrejewski/testa)
-[![Greenkeeper badge](https://badges.greenkeeper.io/andrejewski/testa.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/testu.svg)](https://www.npmjs.com/package/testu)
+[![Build Status](https://travis-ci.org/andrejewski/testu.svg?branch=master)](https://travis-ci.org/andrejewski/testu)
+[![Greenkeeper badge](https://badges.greenkeeper.io/andrejewski/testu.svg)](https://greenkeeper.io/)
 
-Testa provides function spies and object mocks.
+Testu provides function spies and object mocks.
 The value prop is a small API with minimal magic.
 
 ## Examples
 
 ```js
 import assert from 'assert'
-import { createSpy, createMock } from 'testa'
+import { createSpy, createMock } from 'testu'
 
 const calls = []
 const testFn = createSpy(calls, () => 4)
@@ -83,4 +83,4 @@ interface Call {
 
 ## Name origin
 
-Testing for Gangsters, and [Chuck Testa](https://www.youtube.com/user/ojaivalleytaxidermy)
+Testing for Gangsters, and [Chuck Testu](https://www.youtube.com/user/ojaivalleytaxidermy)
